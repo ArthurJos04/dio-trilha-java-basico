@@ -1,7 +1,7 @@
-public interface Phone {
+ interface Phone {
 
-    void call(String number);
-    void sms (String number, String message);
+    void makeCall(String number);
+    void sendSms (String number, String message);
     void acceptCall();
-    void voiceMail();
+    void voiceMail(String number);
 }
