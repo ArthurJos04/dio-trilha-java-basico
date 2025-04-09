@@ -1,4 +1,4 @@
-public class Iphone implements WebNavigator, MediaPlayer, VideoPlayer, App{
+public abstract class Iphone implements WebNavigator, MediaPlayer, VideoPlayer, App{
 
     private String model;
     private int year;
