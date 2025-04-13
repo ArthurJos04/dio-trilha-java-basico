@@ -14,7 +14,7 @@ public class PredicateExample {
         Predicate<String> maisDeCincoCaracteres = palavra -> palavra.length() > 5;
 
         palavras.stream()
-                .filter(maisDeCincoCaracteres) //ou (p -> p.lenght() > 5)
+                .filter(p -> p.length() > 5) //ou (p -> p.length() > 5)
                 .forEach(System.out::println);
     }
 }
